@@ -13,6 +13,7 @@
 		6D3480371D6158DA003C470A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D3480351D6158DA003C470A /* Main.storyboard */; };
 		6D3480391D6158DA003C470A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D3480381D6158DA003C470A /* Assets.xcassets */; };
 		6D34803C1D6158DA003C470A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D34803A1D6158DA003C470A /* LaunchScreen.storyboard */; };
+		6D34804B1D615B01003C470A /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D34804A1D615B01003C470A /* Helper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		6D3480381D6158DA003C470A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D34803B1D6158DA003C470A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D34803D1D6158DA003C470A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D3480491D615B01003C470A /* Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
+		6D34804A1D615B01003C470A /* Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				6D3480301D6158DA003C470A /* AppDelegate.m */,
 				6D3480321D6158DA003C470A /* ViewController.h */,
 				6D3480331D6158DA003C470A /* ViewController.m */,
+				6D3480491D615B01003C470A /* Helper.h */,
+				6D34804A1D615B01003C470A /* Helper.m */,
 				6D3480351D6158DA003C470A /* Main.storyboard */,
 				6D3480381D6158DA003C470A /* Assets.xcassets */,
 				6D34803A1D6158DA003C470A /* LaunchScreen.storyboard */,
@@ -152,6 +157,7 @@
 				6D3480341D6158DA003C470A /* ViewController.m in Sources */,
 				6D3480311D6158DA003C470A /* AppDelegate.m in Sources */,
 				6D34802E1D6158DA003C470A /* main.m in Sources */,
+				6D34804B1D615B01003C470A /* Helper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +270,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = evvUtilLorem/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-.evvUtilLorem";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -275,6 +282,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = evvUtilLorem/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-.evvUtilLorem";
 				PRODUCT_NAME = "$(TARGET_NAME)";
