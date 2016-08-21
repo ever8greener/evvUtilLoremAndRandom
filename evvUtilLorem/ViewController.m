@@ -19,7 +19,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-   
     NSString * testIpsum =    Lorem(6);
     
     NSLog(@"ipsum: %@",testIpsum);
